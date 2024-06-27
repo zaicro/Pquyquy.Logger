@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pquyquy.Logger", "src\Pquyquy.Logger\Pquyquy.Logger.csproj", "{EE54C06F-077C-4060-AE3B-074408893ED1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pquyquy.Logger.UnitTests", "test\Pquyquy.Logger.UnitTests\Pquyquy.Logger.UnitTests.csproj", "{C2625454-78BE-46A3-85EF-C6E00DDC3B78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1DF20E9C-A1E1-4B37-8A84-C2F24718AC50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9AC06353-F0A5-4A87-82FE-B9E5D4752ADC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{800A70A6-D8FE-4818-9EB6-613836A0BAD7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		Nuget.config = Nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pquyquy.Logger.Log4Net", "src\Pquyquy.Logger.Log4Net\Pquyquy.Logger.Log4Net.csproj", "{D8B83F7C-8F63-4CA8-A20A-49F21753D09F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pquyquy.Logger.Log4Net.UnitTests", "test\Pquyquy.Logger.Log4Net.UnitTests\Pquyquy.Logger.Log4Net.UnitTests.csproj", "{4D325124-08FF-4732-A816-BDC8E7051668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE54C06F-077C-4060-AE3B-074408893ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE54C06F-077C-4060-AE3B-074408893ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE54C06F-077C-4060-AE3B-074408893ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE54C06F-077C-4060-AE3B-074408893ED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2625454-78BE-46A3-85EF-C6E00DDC3B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2625454-78BE-46A3-85EF-C6E00DDC3B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2625454-78BE-46A3-85EF-C6E00DDC3B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2625454-78BE-46A3-85EF-C6E00DDC3B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B83F7C-8F63-4CA8-A20A-49F21753D09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B83F7C-8F63-4CA8-A20A-49F21753D09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B83F7C-8F63-4CA8-A20A-49F21753D09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B83F7C-8F63-4CA8-A20A-49F21753D09F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D325124-08FF-4732-A816-BDC8E7051668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D325124-08FF-4732-A816-BDC8E7051668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D325124-08FF-4732-A816-BDC8E7051668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D325124-08FF-4732-A816-BDC8E7051668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE54C06F-077C-4060-AE3B-074408893ED1} = {9AC06353-F0A5-4A87-82FE-B9E5D4752ADC}
+		{C2625454-78BE-46A3-85EF-C6E00DDC3B78} = {1DF20E9C-A1E1-4B37-8A84-C2F24718AC50}
+		{D8B83F7C-8F63-4CA8-A20A-49F21753D09F} = {9AC06353-F0A5-4A87-82FE-B9E5D4752ADC}
+		{4D325124-08FF-4732-A816-BDC8E7051668} = {1DF20E9C-A1E1-4B37-8A84-C2F24718AC50}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE192DF7-2406-4A4D-AFFF-E97B2C4A3B0F}
+	EndGlobalSection
+EndGlobal

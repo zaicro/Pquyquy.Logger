@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<OutputType>Library</OutputType>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<AssemblyName>Pquyquy.Logger</AssemblyName>
+		<AssemblyTitle>Pquyquy.Logger Library</AssemblyTitle>
+		<Product>Pquyquy.Logger Library</Product>
+		<RootNamespace>Pquyquy.Logger</RootNamespace>
+		<Authors>Andres Martinez</Authors>
+		<Copyright>Copyright © 2024</Copyright>
+		<Description>Base logger library</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+</Project>
